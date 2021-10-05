@@ -1,0 +1,71 @@
+/*COLORS #06AED5  #086788   #F2F4F3   #F0C808   #DD1C1A*/
+
+
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: #06AED5;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    color: #F0C808
+}
+
+.footer a{
+    text-decoration: none;
+    color: #F2F4F3;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    color: #DD1C1A;
+}
+
+.jumbo {
+    padding:20px;
+    margin:0px auto;
+    background: #F0C808 ;
+    color:#DD1C1A;
+    height: fit-content;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#086788;
+}
+
+.navbar-dark {
+    background-color: #086788;
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
